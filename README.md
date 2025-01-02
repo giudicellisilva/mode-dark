@@ -5,7 +5,7 @@ Caso queira testar este projeto em sua máquina, siga as etapas abaixo:
 1. Faça o clone deste repositório em sua máquina local usando o comando:
 `git clone <URL-do-repositório>`
 
-2.Entre na pasta do projeto pelo terminal:
+2. Entre na pasta do projeto pelo terminal:
 `cd <nome-da-pasta>`
 
 3. Instale as dependências do projeto:
