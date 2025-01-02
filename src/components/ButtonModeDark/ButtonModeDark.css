@@ -1,0 +1,11 @@
+.ButtonModeDark{
+    background-image: var(--img-light);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+
+    height: 60PX;
+    width: 60PX;
+    cursor: pointer;
+}

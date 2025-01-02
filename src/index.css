@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-primary: #F9FAFB;
+  --color-secondary: #DDDDDD;
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #4B5563;
+
+  --img-light: url("./assets/Light On.png");
+  --img-logout: url("./assets/Logout-light.png");
+}
+
+[data-theme= "dark"]{
+  --color-primary: #1F2937;
+  --color-secondary: #4B5563;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #ACACAC;
+
+
+  --img-light: url("./assets/Light Off.png");
+  --img-logout: url("./assets/Logout-dack.png");
+
+}
+
+.App{
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--color-primary);
+  margin: 0 auto;
+  
+}
+.header{
+  padding: 32px 0;
+}
+
+.header-body{
+  background-color: var(--color-secondary);
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 27px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 27px;
+  padding: 0 20px;
+}
+
+.divisoria{
+  flex: 1;
+}
+
+.logo{
+  height: 100px;
+}
+
+.link{
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.logout{
+  background-color: transparent;
+  border: none;
+  color: var(--color-text-primary);
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+}
+
+.logout__img{
+  background-image: var(--img-logout);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 28px;
+  height: 32px;
+}
+
+
+
+.text-primary{
+  color: var(--color-text-primary);
+  text-align: center;
+  font-size: 54px
+}
+
+.text-secundary{
+  color: var(--color-text-secondary);
+  margin-left: 518px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.div-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  height: 300px;
+  width: 350px;
+  border-radius: 12px;
+}
+
+.card h2{
+  font-size: 37px;
+  color: var(--color-text-primary);
+}
+.logoReact{
+  height: 350px;
+}
